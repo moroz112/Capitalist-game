@@ -1,0 +1,74 @@
+.App {
+  position: relative;
+  text-align: center;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+    .balance {
+      &__value {
+        color: rgba(234, 42, 42, 1);
+        font-weight: bold;
+      }
+    }
+  }
+}
+.bought-businesses {
+  &__header {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(64, 161, 104, 0.9);
+    margin-bottom: 20px;
+  }
+}
+.businesses-to-buy {
+  margin-bottom: 50px;
+
+  &__header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ab559a;
+    margin-bottom: 15px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+
+    > div {
+      margin-right: 10px;
+    }
+    
+    > div:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+#modal-root {
+  display: flex;
+  justify-content: center;
+
+  &__content {
+    position: absolute;
+    width: 400px;
+    text-align: center;
+    padding: 0 10px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -200px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    justify-content: center;
+    border: 1px solid #000;
+  }
+}
