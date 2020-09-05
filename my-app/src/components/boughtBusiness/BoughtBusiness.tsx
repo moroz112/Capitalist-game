@@ -23,13 +23,14 @@ export const BoughtBusiness = (props: BoughtBusinessProps) => {
     const intervalRef = useRef<any>();
     const assignManagerRef = useRef<any>();
     const timeoutRef = useRef<any>();
+    const makeMoneyTimeoutRef = useRef<any>();
 
     const onMakeMoney = () => {
         const moneyToMake = business.revenue[business.level];
 
         makeMoney(moneyToMake);
         setIsMakingMoneyLoading(true);
-        setTimeout(() => {
+        makeMoneyTimeoutRef.current = setTimeout(() => {
             setIsMakingMoneyLoading(false);
         }, 2900)
     }
@@ -48,6 +49,7 @@ export const BoughtBusiness = (props: BoughtBusinessProps) => {
             clearInterval(intervalRef.current);
             clearInterval(assignManagerRef.current);
             clearTimeout(timeoutRef.current);
+            clearTimeout(makeMoneyTimeoutRef.current);
         }
     }, []);
 

@@ -94,4 +94,4 @@ export const businessesToBuyData = [{
     level: 1,
     assignedManager: false,
     priceForManager: 300,
-}]
+}];

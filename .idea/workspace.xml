@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ede89a-1416-468b-a2d4-5c792ed4db12" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/App.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/App.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/actions/actionTypes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/actions/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/common/Modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/boughtBusiness/BoughtBusiness.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/boughtBusiness/boughtBusiness.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/businessToBuy/BusinessToBuy.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/businessToBuy/businessToBuy.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/data.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/reducers/balance.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/reducers/boughtBusinesses.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/reducers/businessesToBuy.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/reducers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/reducers/insufficientBalanceModal.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/reducers/maxUpgradedBusinessModal.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/reducers/moneyWasMadeWhileYouAwayModal.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/serviceWorker.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/setupTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/boughtBusiness/BoughtBusiness.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/boughtBusiness/BoughtBusiness.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/data.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,14 +18,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Modal.tsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Modal.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/common/Modal.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            <state relative-caret-position="240">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoughtBusiness.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/boughtBusiness/BoughtBusiness.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-app/src/data.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="96" column="3" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -69,6 +55,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/my-app/src/components/boughtBusiness/BoughtBusiness.tsx" />
+        <option value="$PROJECT_DIR$/my-app/src/data.ts" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -100,6 +94,32 @@
             <path>
               <item name="Capitalist-game" type="b2602c69:ProjectViewProjectNode" />
               <item name="Capitalist-game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Capitalist-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Capitalist-game" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Capitalist-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Capitalist-game" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Capitalist-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Capitalist-game" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Capitalist-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Capitalist-game" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="boughtBusiness" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -140,25 +160,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599311003395</updated>
-      <workItem from="1599311004864" duration="342000" />
+      <workItem from="1599311004864" duration="730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342000" />
+    <option name="totallyTimeSpent" value="730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.329718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" weight="0.27982646" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -179,11 +200,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/my-app/src/common/Modal.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state relative-caret-position="240">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/boughtBusiness/BoughtBusiness.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/data.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="96" column="3" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
         </state>
       </provider>
     </entry>
